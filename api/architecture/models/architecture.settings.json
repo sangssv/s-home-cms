@@ -1,0 +1,42 @@
+{
+  "connection": "default",
+  "collectionName": "architectures",
+  "info": {
+    "name": "architecture"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "publish"
+      ],
+      "default": "draft"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "count": {
+      "type": "biginteger",
+      "default": "1"
+    }
+  }
+}

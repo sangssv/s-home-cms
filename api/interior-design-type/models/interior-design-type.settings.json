@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "interior_design_types",
+  "info": {
+    "name": "Interior Design Type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

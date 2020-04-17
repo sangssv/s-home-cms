@@ -1,0 +1,27 @@
+{
+  "info": {
+    "name": "advice"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "fullname": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  },
+  "connection": "default",
+  "collectionName": "advice"
+}

@@ -1,0 +1,35 @@
+{
+  "info": {
+    "name": "slider"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "display": {
+      "type": "boolean",
+      "default": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "sliders"
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/interior-designs",
+      "handler": "interior-design.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/interior-designs/count",
+      "handler": "interior-design.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/interior-designs/:id",
+      "handler": "interior-design.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/interior-designs",
+      "handler": "interior-design.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/interior-designs/:id",
+      "handler": "interior-design.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/interior-designs/:id",
+      "handler": "interior-design.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

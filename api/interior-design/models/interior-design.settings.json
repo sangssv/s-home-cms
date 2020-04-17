@@ -1,0 +1,51 @@
+{
+  "connection": "default",
+  "collectionName": "interior_designs",
+  "info": {
+    "name": "Interior Design"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "apartment",
+        "residence",
+        "villa",
+        "office",
+        "hotel"
+      ]
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "publish"
+      ],
+      "default": "draft"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "count": {
+      "type": "biginteger"
+    }
+  }
+}

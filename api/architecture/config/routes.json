@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/architectures",
+      "handler": "architecture.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/architectures/count",
+      "handler": "architecture.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/architectures/:id",
+      "handler": "architecture.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/architectures",
+      "handler": "architecture.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/architectures/:id",
+      "handler": "architecture.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/architectures/:id",
+      "handler": "architecture.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
