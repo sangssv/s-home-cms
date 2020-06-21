@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "Popup"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "display": {
+      "type": "boolean"
+    },
+    "is_internal": {
+      "type": "boolean"
+    },
+    "link": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "popups"
+}

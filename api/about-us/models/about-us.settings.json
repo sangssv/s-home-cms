@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "About us"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "about_us"
+}

@@ -19,11 +19,12 @@
     "type": {
       "type": "enumeration",
       "enum": [
-        "apartment",
-        "residence",
-        "villa",
-        "office",
-        "hotel"
+        "can-ho-chung-cu",
+        "nha-pho-biet-thu",
+        "nha-hang-khach-san",
+        "van-phong",
+        "cua-hang",
+        "khac"
       ]
     },
     "status": {

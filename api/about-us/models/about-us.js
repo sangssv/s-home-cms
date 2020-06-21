@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `interior-design-type` model.
+ * Lifecycle callbacks for the `about-us` model.
  */
 
 module.exports = {

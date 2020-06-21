@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "sliders",
   "info": {
     "name": "slider"
   },
@@ -25,11 +27,9 @@
       "type": "boolean",
       "default": true
     },
-    "url": {
+    "link": {
       "type": "string",
       "required": true
     }
-  },
-  "connection": "default",
-  "collectionName": "sliders"
+  }
 }

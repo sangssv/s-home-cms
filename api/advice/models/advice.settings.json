@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "advice",
   "info": {
     "name": "advice"
   },
@@ -7,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "fullname": {
+    "name": {
       "type": "string",
       "required": true
     },
@@ -18,10 +20,14 @@
     "email": {
       "type": "string"
     },
-    "content": {
+    "description": {
       "type": "text"
+    },
+    "project": {
+      "type": "string"
+    },
+    "area": {
+      "type": "float"
     }
-  },
-  "connection": "default",
-  "collectionName": "advice"
+  }
 }

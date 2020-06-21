@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "architectures",
+  "collectionName": "completed_projects",
   "info": {
-    "name": "Architecture"
+    "name": "Completed Project"
   },
   "options": {
     "increments": true,
@@ -11,7 +11,8 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "content": {
       "type": "richtext"
@@ -35,14 +36,10 @@
       "unique": true
     },
     "count": {
-      "type": "biginteger",
-      "default": "1"
+      "type": "biginteger"
     },
     "project": {
       "type": "string"
-    },
-    "seo_description": {
-      "type": "text"
     }
   }
 }
