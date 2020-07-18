@@ -1039,12 +1039,28 @@
     "@sentry/types" "5.10.0"
     tslib "^1.9.3"
 
+"@sindresorhus/slugify@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/slugify/-/slugify-0.11.0.tgz#642acb99adefa4187285fd17de88745afc161de8"
+  integrity sha512-ECTZT6z1hYDsopRh8GECaQ5L6hoJHVd4uq5hPi8se9GB31tgtZfnlM8G64hZVhJNmtJ9eIK0SuNhtsaPQStXEQ==
+  dependencies:
+    "@sindresorhus/transliterate" "^0.1.0"
+    escape-string-regexp "^2.0.0"
+
 "@sindresorhus/slugify@^0.9.1":
   version "0.9.1"
   resolved "https://registry.yarnpkg.com/@sindresorhus/slugify/-/slugify-0.9.1.tgz#892ad24d70b442c0a14fe519cb4019d59bc5069f"
   integrity sha512-b6heYM9dzZD13t2GOiEQTDE0qX+I1GyOotMwKh9VQqzuNiVdPVT8dM43fe9HNb/3ul+Qwd5oKSEDrDIfhq3bnQ==
   dependencies:
     escape-string-regexp "^1.0.5"
+    lodash.deburr "^4.1.0"
+
+"@sindresorhus/transliterate@^0.1.0":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/transliterate/-/transliterate-0.1.1.tgz#779b31244781d3c898f185b61d58c89e7c782674"
+  integrity sha512-QSdIQ5keUFAZ3KLbfbsntW39ox0Ym8183RqTwBq/ZEFoN3NQAtGV+qWaNdzKpIDHgj9J2CQ2iNDRVU11Zyr7MQ==
+  dependencies:
+    escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
 "@types/asap@^2.0.0":
@@ -3277,6 +3293,11 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+escape-string-regexp@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
+  integrity sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
+
 eslint-scope@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-4.0.3.tgz#ca03833310f6889a3264781aa82e63eb9cfe7848"
@@ -5356,6 +5377,11 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
+lodash-es@^4.17.11:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
+  integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
+
 lodash.deburr@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/lodash.deburr/-/lodash.deburr-4.1.0.tgz#ddb1bbb3ef07458c0177ba07de14422cb033ff9b"
@@ -5415,6 +5441,11 @@ lodash.tonumber@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/lodash.tonumber/-/lodash.tonumber-4.0.3.tgz#0b96b31b35672793eb7f5a63ee791f1b9e9025d9"
   integrity sha1-C5azGzVnJ5Prf1pj7nkfG56QJdk=
+
+lodash@4.17.12:
+  version "4.17.12"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.12.tgz#a712c74fdc31f7ecb20fe44f157d802d208097ef"
+  integrity sha512-+CiwtLnsJhX03p20mwXuvhoebatoh5B3tt+VvYlrPgZC1g36y+RRbkufX95Xa+X4I59aWEacDFYwnJZiyBh9gA==
 
 lodash@^4.1.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.15"
@@ -6002,6 +6033,11 @@ nodemailer-shared@1.1.0:
   integrity sha1-z1mU4v0mjQD1zw+nZ6CBae2wfsA=
   dependencies:
     nodemailer-fetch "1.6.0"
+
+nodemailer@^6.4.10:
+  version "6.4.10"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.4.10.tgz#f4c8dc7991c57f41fd081bef224ef01f7065143d"
+  integrity sha512-j+pS9CURhPgk6r0ENr7dji+As2xZiHSvZeVnzKniLOw1eRAyM/7flP0u65tCnsapV8JFu+t0l/5VeHsCZEeh9g==
 
 nopt@^4.0.1:
   version "4.0.1"
@@ -7870,7 +7906,7 @@ send@0.17.1:
     range-parser "~1.2.1"
     statuses "~1.5.0"
 
-sendmail@^1.2.0:
+sendmail@^1.2.0, sendmail@^1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/sendmail/-/sendmail-1.6.1.tgz#6be92fb4be70d1d9ad102030aeb1e737bd512159"
   integrity sha512-lIhvnjSi5e5jL8wA1GPP6j2QVlx6JOEfmdn0QIfmuJdmXYGmJ375kcOU0NSm/34J+nypm4sa1AXrYE5w3uNIIA==
@@ -8582,6 +8618,14 @@ strapi-provider-email-sendmail@3.0.0-beta.18.2:
     lodash "^4.17.11"
     sendmail "^1.2.0"
 
+strapi-provider-email-sendmail@^3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.0.6.tgz#2dd0851d6f2a41b0f56d0289680bcc051d244ae7"
+  integrity sha512-/IHUdIvatE0U9x2TcfRmxxTKsspsO5/j1ROVTJEYVhUekfapNm9Fcli+bwk0AzeJEtwXDyllf6TCOhXs+75cXQ==
+  dependencies:
+    sendmail "^1.6.1"
+    strapi-utils "3.0.6"
+
 strapi-provider-upload-local@3.0.0-beta.18.2:
   version "3.0.0-beta.18.2"
   resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.0.0-beta.18.2.tgz#16b1586df1c24b9c8db975187a9545a67c407bf7"
@@ -8598,6 +8642,19 @@ strapi-utils@3.0.0-beta.18.2:
     pino "^4.7.1"
     pluralize "^7.0.0"
     shelljs "^0.8.3"
+
+strapi-utils@3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.6.tgz#097dcc65ff48579d93e59e268678830df782b145"
+  integrity sha512-Ju27a01R4ikkuUcHUD+BhzvqDyu17dltB7DB7gYDRyUCqSliuZ3U2ztDHIpFMKH0Tgf7UkJsJ/IPb+8BNFEBVA==
+  dependencies:
+    "@sindresorhus/slugify" "^0.11.0"
+    date-fns "^2.8.1"
+    lodash "4.17.12"
+    pino "^4.7.1"
+    pluralize "^7.0.0"
+    shelljs "^0.8.3"
+    yup "0.28.1"
 
 strapi@3.0.0-beta.18.2:
   version "3.0.0-beta.18.2"
@@ -9721,6 +9778,19 @@ ylru@^1.2.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/ylru/-/ylru-1.2.1.tgz#f576b63341547989c1de7ba288760923b27fe84f"
   integrity sha512-faQrqNMzcPCHGVC2aaOINk13K+aaBDUPjGWl0teOXywElLjyVAB6Oe2jj62jHYtwsU49jXhScYbvPENK+6zAvQ==
+
+yup@0.28.1:
+  version "0.28.1"
+  resolved "https://registry.yarnpkg.com/yup/-/yup-0.28.1.tgz#60c0725be7057ed7a9ae61561333809332a63d47"
+  integrity sha512-xSHMZA7UyecSG/CCTDCtnYZMjBrYDR/C7hu0fMsZ6UcS/ngko4qCVFbw+CAmNtHlbItKkvQ3YXITODeTj/dUkw==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    fn-name "~2.0.1"
+    lodash "^4.17.11"
+    lodash-es "^4.17.11"
+    property-expr "^1.5.0"
+    synchronous-promise "^2.0.6"
+    toposort "^2.0.2"
 
 yup@^0.27.0:
   version "0.27.0"
