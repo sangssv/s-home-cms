@@ -47,6 +47,9 @@
     },
     "count": {
       "type": "biginteger"
+    },
+    "video_url": {
+      "type": "string"
     }
   }
 }

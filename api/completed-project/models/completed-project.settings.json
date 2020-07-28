@@ -40,6 +40,9 @@
     },
     "project": {
       "type": "string"
+    },
+    "video_url": {
+      "type": "string"
     }
   }
 }

@@ -43,6 +43,9 @@
     },
     "seo_description": {
       "type": "text"
+    },
+    "video_url": {
+      "type": "string"
     }
   }
 }
